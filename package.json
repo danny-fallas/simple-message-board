@@ -1,0 +1,12 @@
+{
+  "name": "message-board-interview",
+  "version": "1.0.0",
+  "description": "Demo message board",
+  "main": " ",
+  "scripts": {
+    "start:www": "npm i --prefix ./www && npm start --prefix ./www",
+    "start:api": "npm i --prefix ./api && npm start --prefix ./api"
+  },
+  "author": "Danny Fallas Castillo",
+  "license": "ISC"
+}
