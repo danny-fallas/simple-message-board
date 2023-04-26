@@ -4,6 +4,7 @@
   "description": "Demo message board",
   "main": " ",
   "scripts": {
+    "start": "npm run start:api & npm run start:www",
     "start:www": "npm i --prefix ./www && npm start --prefix ./www",
     "start:api": "npm i --prefix ./api && npm start --prefix ./api"
   },
